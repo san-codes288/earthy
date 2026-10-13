@@ -44,6 +44,8 @@ type NutritionResult = {
   };
   canCalculate: boolean;
 };
+const API_BASE_URL =
+  process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
 
 const emptyNutrition: NutritionResult = {
   totals: {
@@ -101,7 +103,7 @@ export default function LogMealPage() {
 
       try {
         const response = await fetch(
-          "http://127.0.0.1:8000/nutrition/calculate",
+          `${API_BASE_URL}/nutrition/calculate`,
           {
             method: "POST",
             headers: {
@@ -224,7 +226,7 @@ export default function LogMealPage() {
       formData.append("photo", photoFile);
 
       const response = await fetch(
-        "http://127.0.0.1:8000/meals/analyze-photo",
+        `${API_BASE_URL}/meals/analyze-photo`,
         {
           method: "POST",
           body: formData,
