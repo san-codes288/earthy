@@ -38,7 +38,7 @@ app.add_middleware(
 
 # Reuse the existing frontend dataset.
 BASE_DIR = Path(__file__).resolve().parent
-FOODS_FILE = BASE_DIR.parent / "frontend" / "data" / "foods.json"
+FOODS_FILE = BASE_DIR / "data" / "foods.json"
 
 with open(FOODS_FILE, "r", encoding="utf-8") as file:
     FOODS = json.load(file)
