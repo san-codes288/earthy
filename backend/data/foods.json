@@ -1,0 +1,123 @@
+
+[
+  {
+    "id": "roti",
+    "name": "Roti (reference: commercially prepared)",
+    "aliases": ["chapati"],
+    "basis": "per 100 g edible portion",
+    "nutrients": {
+      "energy_kcal": 297,
+      "protein_g": 11.25,
+      "iron_mg": 3.01,
+      "calcium_mg": 93,
+      "fibre_g": 4.9
+    },
+    "source": "USDA FoodData Central, FDC 171844; commercially prepared roti",
+    "verified": true
+  },
+  {
+    "id": "cooked-white-rice",
+    "name": "Cooked white rice",
+    "aliases": ["white rice"],
+    "basis": "per 100 g cooked portion",
+    "nutrients": {
+      "energy_kcal": 130,
+      "protein_g": 2.69,
+      "iron_mg": 0.2,
+      "calcium_mg": 10,
+      "fibre_g": 0.4
+    },
+    "source": "USDA FoodData Central, cooked white long-grain rice reference",
+    "verified": true
+  },
+  {
+    "id": "cooked-dal",
+    "name": "Cooked lentils (plain)",
+    "aliases": ["dal", "lentils"],
+    "basis": "per 100 g cooked portion",
+    "nutrients": {
+      "energy_kcal": 116,
+      "protein_g": 9.02,
+      "iron_mg": 3.33,
+      "calcium_mg": 19,
+      "fibre_g": 7.9
+    },
+    "source": "USDA FoodData Central, FDC 172421; lentils boiled without salt",
+    "verified": true
+  },
+  {
+    "id": "boiled-egg",
+    "name": "Hard-boiled egg",
+    "aliases": ["boiled egg", "egg"],
+    "basis": "per 100 g edible portion",
+    "nutrients": {
+      "energy_kcal": 155,
+      "protein_g": 12.58,
+      "iron_mg": 1.19,
+      "calcium_mg": 50,
+      "fibre_g": 0
+    },
+    "source": "USDA FoodData Central; hard-boiled whole egg reference",
+    "verified": true
+  },
+  {
+    "id": "milk",
+    "name": "Whole milk",
+    "aliases": ["milk"],
+    "basis": "per 100 g",
+    "nutrients": {
+      "energy_kcal": 61,
+      "protein_g": 3.15,
+      "iron_mg": 0.03,
+      "calcium_mg": 113,
+      "fibre_g": 0
+    },
+    "source": "USDA FoodData Central, FDC 171265; whole milk reference",
+    "verified": true
+  },
+  {
+    "id": "banana",
+    "name": "Raw banana",
+    "aliases": ["banana"],
+    "basis": "per 100 g edible portion",
+    "nutrients": {
+      "energy_kcal": 89,
+      "protein_g": 1.09,
+      "iron_mg": 0.26,
+      "calcium_mg": 5,
+      "fibre_g": 2.6
+    },
+    "source": "USDA FoodData Central, FDC 173944; raw banana",
+    "verified": true
+  },
+  {
+    "id": "boiled-potato",
+    "name": "Boiled potato",
+    "aliases": ["potato"],
+    "basis": "per 100 g cooked portion",
+    "nutrients": {
+      "energy_kcal": 87,
+      "protein_g": 1.87,
+      "iron_mg": 0.31,
+      "calcium_mg": 5,
+      "fibre_g": 1.8
+    },
+    "source": "USDA FoodData Central, FDC 170438; boiled potato without salt",
+    "verified": true
+  },
+  {
+    "id": "plain-curd",
+    "name": "Plain whole-milk yogurt (curd reference)",
+    "aliases": ["curd", "plain yogurt", "yoghurt"],
+    "basis": "per 100 g",
+    "nutrients": {
+      "energy_kcal": 61,
+      "protein_g": 3.47,
+      "iron_mg": 0.05,
+      "calcium_mg": 121,
+      "fibre_g": 0
+    },
+    "source": "USDA FoodData Central, FDC 171284; plain whole-milk yogurt",
+    "verified": true
+  }
+]
